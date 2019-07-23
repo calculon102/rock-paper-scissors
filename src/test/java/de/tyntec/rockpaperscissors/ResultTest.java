@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Tests the result-opposites.
  * 
- * @author Frank Großgasteiger
+ * @author Frank GroÃŸgasteiger
  */
 public class ResultTest {
 	@Test

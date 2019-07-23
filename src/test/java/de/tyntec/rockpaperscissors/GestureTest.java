@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Test the method holdAgainst for all common rules of Rock-Paper-Scissors
  * 
- * @author Frank Groﬂgasteiger
+ * @author Frank Gro√ügasteiger
  */
 public class GestureTest {
 	@Test

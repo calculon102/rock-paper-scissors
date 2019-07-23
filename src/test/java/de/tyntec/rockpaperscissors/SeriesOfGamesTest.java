@@ -8,7 +8,7 @@ import org.junit.Test;
 /**
  * Tests mainly the exceptions for the class.
  * 
- * @author Frank Groﬂgasteiger
+ * @author Frank Gro√ügasteiger
  */
 public class SeriesOfGamesTest {
 	@Test(expected=NullPointerException.class)

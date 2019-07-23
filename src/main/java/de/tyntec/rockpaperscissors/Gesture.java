@@ -1,11 +1,11 @@
 package de.tyntec.rockpaperscissors;
 
 /**
- * The gestures of Rock-Paper-Scissors as an enum-type. Already featuring the relations between the gestures.
- * This guarantees typesafety and a meaningful code.
- * E.g. The use of ineger-constants wouldn't be so nice. 
+ * The gestures of Rock-Paper-Scissors as an enumeration-type. Already featuring the relations between the gestures.
+ * This guarantees type-safety and a meaningful code.
+ * E.g. The use of integer-constants wouldn't be so nice. 
  * 
- * @author Frank Groﬂgasteiger
+ * @author Frank Gro√ügasteiger
  */
 enum Gesture {
 	ROCK(Result.TIE, Result.LOSE, Result.WIN),
@@ -17,7 +17,7 @@ enum Gesture {
 	private final Result againstScissor;
 	
 	/**
-	 * Default-constructor for this enum-type
+	 * Default-constructor for this enumeration-type
 	 * @param againstRock The result if this gesture is held against Gesture.ROCK
 	 * @param againstPaper The result if this gesture is held against Gesture.PAPER
 	 * @param againstScissor The result if this gesture is held against Gesture.SCISSOR

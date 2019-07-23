@@ -4,7 +4,7 @@ package de.tyntec.rockpaperscissors;
  * The Rock-Paper-Scissors-Player type A.
  * According to the task: Always choose paper.
  * 
- * @author Frank Groﬂgasteiger
+ * @author Frank Gro√ügasteiger
  */
 final class PlayerA implements Player {
 	public Gesture nextGesture() {

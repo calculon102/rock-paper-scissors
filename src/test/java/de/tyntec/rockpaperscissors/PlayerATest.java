@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Only tests the behaviour of Player A: He always holds the paper.
  * 
- * @author Frank Groﬂgasteiger
+ * @author Frank Gro√ügasteiger
  */
 public class PlayerATest {
 	@Test

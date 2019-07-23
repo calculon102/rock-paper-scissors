@@ -5,9 +5,9 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 /**
- * The random behaviour lets us only test, if the result is always a valid enum value.
+ * The random behaviour lets us only test, if the result is always a valid enumeration value.
  * 
- * @author Frank Groﬂgasteiger
+ * @author Frank Gro√ügasteiger
  */
 public class PlayerBTest {
 	@Test

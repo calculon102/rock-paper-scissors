@@ -6,14 +6,14 @@ import org.junit.Test;
 import static org.mockito.Mockito.*;
 
 /**
- * Tests the Rock-Paper-Scissor-Game for the foloowing features:
+ * Tests the Rock-Paper-Scissor-Game for the following features:
  * - Results for both players must always be opposite
  * - First Player can win
  * - Second Player can win
  * - Both player can tie
  * - Throws NullPointerExceptions if a given player is null
  * 
- * @author Frank Groﬂgasteiger
+ * @author Frank Gro√ügasteiger
  */
 public class GameTest {
 	@Test

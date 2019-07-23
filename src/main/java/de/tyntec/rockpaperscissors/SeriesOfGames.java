@@ -2,14 +2,14 @@ package de.tyntec.rockpaperscissors;
 
 /**
  * Plays a series of games and is able to print the results to the console.
- * Computes the results during initialization and is immutable after that
+ * Computes the results during initialisation and is immutable after that
  * (to the according pattern, to avoid state-checking hassle).
  * 
- * @author Frank Groﬂgasteiger
+ * @author Frank Gro√ügasteiger
  */
 final class SeriesOfGames {
-	private final static String WIN_LINE = "%s wins %d of %d games";
-	private final static String TIE_LINE = "Tie: %d of %d games";
+	private static final String WIN_LINE = "%s wins %d of %d games";
+	private static final String TIE_LINE = "Tie: %d of %d games";
 	
 	private final Player firstPlayer;
 	private final Player secondPlayer;
@@ -20,11 +20,11 @@ final class SeriesOfGames {
 	private int ties = 0;
 	
 	/**
-	 * Default-constructor. Immediatelly computes the results of the Rock-Paper-Scissors games
+	 * Default-constructor. Immediately computes the results of the Rock-Paper-Scissors games
 	 * with the given players and count of games.
 	 * @param firstPlayer The first player of the Rock-Paper-Scissor-Games (must not be null!)
-	 * @param secondPlayer The secomd player of the Rock-Paper-Scissor-Games (must not be null!)
-	 * @param countOfGames The count of games to play Rock-Paper-Scissors (muste be greater than 0)
+	 * @param secondPlayer The second player of the Rock-Paper-Scissor-Games (must not be null!)
+	 * @param countOfGames The count of games to play Rock-Paper-Scissors (must be greater than 0)
 	 * @throws NullPointerException If one of the player-object is null
 	 * @throws IllegalArgumentException If countOfGames is not greater than 0
 	 */

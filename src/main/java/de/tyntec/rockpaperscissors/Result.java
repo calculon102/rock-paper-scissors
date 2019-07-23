@@ -1,15 +1,15 @@
 package de.tyntec.rockpaperscissors;
 
 /**
- * Most simple enum for our Rock-Paper-Scissor-Games
+ * Most simple enumeration for our Rock-Paper-Scissor-Games
  * 
- * @author Frank Großgasteiger
+ * @author Frank GroÃŸgasteiger
  */
 enum Result {
 	WIN, TIE, LOSE;
 	
 	/**
-	 * Returns the opposite of this result for convinience
+	 * Returns the opposite of this result for convenience
 	 * @return The opposite of the Result (WIN => LOSE, LOSE => WIN, TIE => TIE)
 	 */
 	public Result getOpposite() {
