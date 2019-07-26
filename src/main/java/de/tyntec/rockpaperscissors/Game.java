@@ -2,20 +2,20 @@ package de.tyntec.rockpaperscissors;
 
 /**
  * Plays a game of Rock-Paper-Scissors and stores the result. 
- * The result of the game is immediatelly determined, when the object
+ * The result of the game is immediately determined, when the object
  * is created with the two players as parameters. After that, the object becomes
  * immutable, according to same-called pattern.
  * 
  * The players themselves are not stored, but only the result of the comparison
  * of their next gestures.
  * 
- * @author Frank Groﬂgasteiger
+ * @author Frank Gro√ügasteiger
  */
 final class Game {
 	private final Result resultOfFirstPlayer;
 	
 	/**
-	 * Initializes (and plays) the game immediatelly.
+	 * Initialises (and plays) the game immediately.
 	 * @param firstPlayer The first Rock-Paper-Scissors-Player
 	 * @param secondPlayer The second Rock-Paper-Scissors-Player
 	 * @throws NullPointerException if one of the parameters is null. This must not be!
